@@ -92,7 +92,7 @@ const Footer = props => {
                   </NamedLink>
                 </li>
                 <li className={css.listItem}>
-                  <NamedLink name="LandingPage" className={css.link}>
+                  <NamedLink name="FAQPage" className={css.link}>
                     <FormattedMessage id="Footer.toFAQPage" />
                   </NamedLink>
                 </li>
@@ -115,11 +115,11 @@ const Footer = props => {
                     name="SearchPage"
                     to={{
                       search:
-                        '?address=Helsinki%2C%20Finland&bounds=60.2978389%2C25.254484899999966%2C59.9224887%2C24.782875800000056&origin=60.16985569999999%2C24.93837910000002',
+                        '?address=Auckland%2C New Zealand&bounds=-36.545%2C175.298%2C-37.047%2C174.498',
                     }}
                     className={css.link}
                   >
-                    <FormattedMessage id="Footer.searchHelsinki" />
+                    <FormattedMessage id="Footer.searchAuckland" />
                   </NamedLink>
                 </li>
                 <li className={css.listItem}>
@@ -127,11 +127,11 @@ const Footer = props => {
                     name="SearchPage"
                     to={{
                       search:
-                        '?address=Turku%2C%20Finland&bounds=60.5304531%2C22.38197820000005%2C60.33361189999999%2C22.066440100000023&origin=60.4518126%2C22.26663020000001',
+                        '?address=Cincinnati%2C United STates&bounds=40.155%2C-83.519%2C38.155%2C-85.437',
                     }}
                     className={css.link}
                   >
-                    <FormattedMessage id="Footer.searchTurku" />
+                    <FormattedMessage id="Footer.searchCincinnati" />
                   </NamedLink>
                 </li>
                 <li className={css.listItem}>
@@ -139,11 +139,11 @@ const Footer = props => {
                     name="SearchPage"
                     to={{
                       search:
-                        '?address=Tampere%2C%20Finland&bounds=61.83657359999999%2C24.118384099999957%2C61.42728169999999%2C23.542201299999988&origin=61.4977524%2C23.760953500000028',
+                        '?address=Méribel%2C France&bounds=45.55%2C6.731%2C45.243%2C6.405',
                     }}
                     className={css.link}
                   >
-                    <FormattedMessage id="Footer.searchTampere" />
+                    <FormattedMessage id="Footer.searchMeribel" />
                   </NamedLink>
                 </li>
                 <li className={css.listItem}>
@@ -151,11 +151,11 @@ const Footer = props => {
                     name="SearchPage"
                     to={{
                       search:
-                        '?address=Oulu%2C%20Finland&bounds=65.5643426%2C26.770696000000044%2C64.8443082%2C24.114941999999928&origin=65.0120888%2C25.465077199999996',
+                        '?address=Bremen%2C Germany&bounds=53.609%2C8.991%2C53.011%2C8.454',
                     }}
                     className={css.link}
                   >
-                    <FormattedMessage id="Footer.searchOulu" />
+                    <FormattedMessage id="Footer.searchBremen" />
                   </NamedLink>
                 </li>
                 <li className={css.listItem}>
@@ -163,11 +163,11 @@ const Footer = props => {
                     name="SearchPage"
                     to={{
                       search:
-                        '?address=Rukatunturi%2C%20Kuusamo%2C%20Finland&bounds=66.1699707%2C29.167735499999935%2C66.1609529%2C29.13572069999998&origin=66.1654622%2C29.151728100000014',
+                        '?address=Bali%2C Indonesia&bounds=-7.494%2C115.774%2C-9.356%2C114.373',
                     }}
                     className={css.link}
                   >
-                    <FormattedMessage id="Footer.searchRuka" />
+                    <FormattedMessage id="Footer.searchBali" />
                   </NamedLink>
                 </li>
               </ul>

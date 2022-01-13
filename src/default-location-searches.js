@@ -9,38 +9,38 @@ const { LatLng, LatLngBounds } = sdkTypes;
 // `predictionPlace` (util.types.place) properties.
 const defaultLocations = [
   {
-    id: 'default-helsinki',
+    id: 'default-auckland',
     predictionPlace: {
-      address: 'Helsinki, Finland',
-      bounds: new LatLngBounds(new LatLng(60.29783, 25.25448), new LatLng(59.92248, 24.78287)),
+      address: 'Auckland, New Zealand',
+      bounds: new LatLngBounds(new LatLng(-36.545, 175.298), new LatLng(-37.047,174.498)),
     },
   },
   {
-    id: 'default-turku',
+    id: 'default-cincinnati',
     predictionPlace: {
-      address: 'Turku, Finland',
-      bounds: new LatLngBounds(new LatLng(60.53045, 22.38197), new LatLng(60.33361, 22.06644)),
+      address: 'Cincinnati, United States',
+      bounds: new LatLngBounds(new LatLng(40.155, -83.519), new LatLng(38.155, -85.437)),
     },
   },
   {
-    id: 'default-tampere',
+    id: 'default-meribel',
     predictionPlace: {
-      address: 'Tampere, Finland',
-      bounds: new LatLngBounds(new LatLng(61.83657, 24.11838), new LatLng(61.42728, 23.5422)),
+      address: 'Méribel, France',
+      bounds: new LatLngBounds(new LatLng(45.550, 6.731), new LatLng(45.243, 6.405)),
     },
   },
   {
-    id: 'default-oulu',
+    id: 'default-bremen',
     predictionPlace: {
-      address: 'Oulu, Finland',
-      bounds: new LatLngBounds(new LatLng(65.56434, 26.77069), new LatLng(64.8443, 24.11494)),
+      address: 'Bremen, Germany',
+      bounds: new LatLngBounds(new LatLng(53.609, 8.991), new LatLng(53.011, 8.454)),
     },
   },
   {
-    id: 'default-ruka',
+    id: 'default-bali',
     predictionPlace: {
-      address: 'Ruka, Finland',
-      bounds: new LatLngBounds(new LatLng(66.16997, 29.16773), new LatLng(66.16095, 29.13572)),
+      address: 'Bali, Indonesia',
+      bounds: new LatLngBounds(new LatLng(-7.494, 115.774), new LatLng(-9.356, 114.373)),
     },
   },
 ];
